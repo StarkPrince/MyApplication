@@ -1,0 +1,32 @@
+<div class="container">
+    <list class="list-item">
+        <list-item class="item-one" clickeffect="false">
+            <div class="big-sort-frag">
+                <div class="big-sort-frag-one" for="{{ subclasses }}">
+                    <div @click="clickPro({{ $item.sc }})" class="big-sort-frag-wrapper">
+                        <text class="big-sort-frag-text">{{ $item.sc }}</text>
+                    </div>
+                </div>
+            </div>
+        </list-item>
+        <list-item class="item-other" for="{{ list_data }}" clickeffect="false">
+            <div class="sort-frag-one">
+                <div class="item-wrapper">
+                    <text class="item-name">{{ $item.sort_titlt.sort_title01.title01 }}</text>
+                    <div class="item-right-part-wrapper">
+                        <text class="item-right-text"> {{ $item.sort_titlt.sort_title01.des }}</text>
+                        <image class="item-right-arrow" src="{{ images.images03 }}"></image>
+                    </div>
+                </div>
+                <div class="detail-sort">
+                    <div class="detail-wrapper" @click="clickgogo" for="{{ $item.detail_sort_data }}">
+                        <image class="detail_wrapper-image" src="{{ $item.item_image }}"
+                               @click="clickPro({{ $item.item_name }})"></image>
+                        <text class="bottomBarItem-text" @click="clickPro({{ $item.item_name }})">{{ $item.item_name }}
+                        </text>
+                    </div>
+                </div>
+            </div>
+        </list-item>
+    </list>
+</div>

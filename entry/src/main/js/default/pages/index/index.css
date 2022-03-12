@@ -1,0 +1,105 @@
+#root{
+    display: flex;
+    flex-direction: column;
+}
+
+#gridIcon{
+    justify-content: flex-start;
+}
+
+#profilePic{
+    height: 50px;
+    width: 50px;
+    justify-content: flex-end;
+    border-radius: 25px;
+}
+#product{
+    height: 80px;
+    width: 80px;
+    justify-content: flex-end;
+    border-radius: 15px;
+}
+
+.header{
+    display: flex;
+    margin: 20px;
+}
+
+#notification{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#notificationText{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#runningshoes{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#notificationIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#notificationButton{
+    height: 60px;
+}
+
+#notify{
+    font-size: 15px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+#discovertext{
+    float: left;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#search{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+}
+
+#searchInput{
+    margin-top: 10px;
+    float: left;
+    width: 80%;
+    margin-right: 10px;
+    height: 50px;
+}
+
+#searchButton{
+    margin-top: 10px;
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+    height: 50px;
+    background-color: rgb(238, 237, 237);
+    margin-right: 10px;
+    width: 70px;
+}
+
+#comingsoon{
+    font-size: 10px;
+    color: blue;
+}

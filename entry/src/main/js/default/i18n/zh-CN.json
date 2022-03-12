@@ -1,0 +1,143 @@
+{
+  "strings": {
+    "sort": "分类",
+    "describe": "描述",
+    "search": "搜索"
+  },
+  "screen": {
+    "second": "第二页",
+    "third": "第三页",
+    "four": "第四页",
+    "five": "第五页",
+    "six": "第六页"
+  },
+  "screen-side": [
+    {
+      "page": "精品"
+    },
+    {
+      "page": "分类1"
+    },
+    {
+      "page": "分类2"
+    },
+    {
+      "page": "分类3"
+    },
+    {
+      "page": "分类4"
+    },
+    {
+      "page": "分类5"
+    },
+    {
+      "page": "分类6"
+    }
+  ],
+  "bottom_content": [
+    {
+      "text": "页签",
+      "img": "common/images/ic.png"
+    },
+    {
+      "text": "页签",
+      "img": "common/images/ic.png"
+    },
+    {
+      "text": "页签",
+      "img": "common/images/ic.png"
+    },
+    {
+      "text": "页签",
+      "img": "common/images/ic.png"
+    },
+    {
+      "text": "页签",
+      "img": "common/images/ic.png"
+    }
+  ],
+  "list_data": [
+    {
+      "sort_titlt": {
+        "sort_title01": {
+          "title01": "主题",
+          "des": "右侧描述"
+        }
+      },
+      "detail_sort_data": [
+        {
+          "item_name": "子类",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "子类",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "子类",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "子类",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "子类",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "子类",
+          "item_image": "common/images/ic.png"
+        }
+      ]
+    },
+    {
+      "sort_titlt": {
+        "sort_title01": {
+          "title01": "主题",
+          "des": "右侧描述"
+        }
+      },
+      "detail_sort_data": [
+        {
+          "item_name": "子类",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "子类",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "子类",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "子类",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "子类",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "子类",
+          "item_image": "common/images/ic.png"
+        }
+      ]
+    }
+  ],
+  "subclasses": [
+    {
+      "sc": "子类01"
+    },
+    {
+      "sc": "子类02"
+    },
+    {
+      "sc": "子类03"
+    },
+    {
+      "sc": "子类04"
+    }
+  ]
+}

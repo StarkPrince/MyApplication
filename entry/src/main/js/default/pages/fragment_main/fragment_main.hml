@@ -1,0 +1,49 @@
+<element src="../sort_one/sort_one.hml" name="sort_one"></element>
+<div class="container">
+    <div class="title">
+        <image class="toolbar-image01" src="{{ images.image01 }}"></image>
+        <text class="title01">{{ $t('strings.sort') }}</text>
+        <text class="title02">{{ $t('strings.describe') }}</text>
+        <search class="search-bar-top" hint="{{ $t('strings.search') }}"></search>
+        <image class="toolbar-image02" src="{{ images.image02 }}"></image>
+    </div>
+    <div class="search-wrapper">
+        <search class="search-bar-in" hint="{{ $t('strings.search') }}"></search>
+    </div>
+
+<!-- list  -->
+    <div class="sort-bar">
+        <tabs class="tabs" vertical="true" index="{{ index_tab }}" onchange="changeFun">
+            <tab-bar class="sort-tab-bar" mode="fixed">
+                <block for="{{ list_data }}">
+                    <div class="{{ index_tab == $idx ? 'side-wrapper-focus' : 'side-wrapper' }}">
+                        <text class="item-wrapper-text">{{ $item.page }}</text>
+                    </div>
+                </block>
+            </tab-bar>
+            <tab-content class="tab-content" scrollable="true">
+                <div class="item-content">
+                    <sort_one></sort_one>
+                </div>
+                <div class="item-content">
+                    <sort_one></sort_one>
+                </div>
+                <div class="item-content">
+                    <sort_one></sort_one>
+                </div>
+                <div class="item-content">
+                    <sort_one></sort_one>
+                </div>
+                <div class="item-content">
+                    <sort_one></sort_one>
+                </div>
+                <div class="item-content">
+                    <sort_one></sort_one>
+                </div>
+                <div class="item-content">
+                    <sort_one></sort_one>
+                </div>
+            </tab-content>
+        </tabs>
+    </div>
+</div>

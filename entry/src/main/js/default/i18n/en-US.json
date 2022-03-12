@@ -1,0 +1,144 @@
+{
+  "strings": {
+    "sort": "Sort",
+    "describe": "describe",
+    "search": "search"
+  },
+  "screen": {
+    "page": "Page",
+    "second": "Second screen",
+    "third": "Third screen",
+    "four": "Four screen",
+    "five": "Five screen",
+    "six": "Six screen"
+  },
+  "bottom_content": [
+    {
+      "text": "page",
+      "img": "common/images/ic.png"
+    },
+    {
+      "text": "page",
+      "img": "common/images/ic.png"
+    },
+    {
+      "text": "page",
+      "img": "common/images/ic.png"
+    },
+    {
+      "text": "page",
+      "img": "common/images/ic.png"
+    },
+    {
+      "text": "page",
+      "img": "common/images/ic.png"
+    }
+  ],
+  "screen-side": [
+    {
+      "page": "rec"
+    },
+    {
+      "page": "sort1"
+    },
+    {
+      "page": "sort2"
+    },
+    {
+      "page": "sort3"
+    },
+    {
+      "page": "sort4"
+    },
+    {
+      "page": "sort5"
+    },
+    {
+      "page": "sort6"
+    }
+  ],
+  "list_data": [
+    {
+      "sort_titlt": {
+        "sort_title01": {
+          "title01": "theme",
+          "des": "right-des"
+        }
+      },
+      "detail_sort_data": [
+        {
+          "item_name": "item",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "item",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "item",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "item",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "item",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "item",
+          "item_image": "common/images/ic.png"
+        }
+      ]
+    },
+    {
+      "sort_titlt": {
+        "sort_title01": {
+          "title01": "theme",
+          "des": "right-des"
+        }
+      },
+      "detail_sort_data": [
+        {
+          "item_name": "item",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "item",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "item",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "item",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "item",
+          "item_image": "common/images/ic.png"
+        },
+        {
+          "item_name": "item",
+          "item_image": "common/images/ic.png"
+        }
+      ]
+    }
+  ],
+  "subclasses": [
+    {
+      "sc": "item01"
+    },
+    {
+      "sc": "item02"
+    },
+    {
+      "sc": "item03"
+    },
+    {
+      "sc": "item04"
+    }
+  ]
+}
