@@ -4,33 +4,73 @@
 
 <div id="root">
     <div class="header">
-        <svg style="fill: rgba(0, 0, 0, 1);" id="gridIcon">
-            <path d="M10 3H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM9 9H5V5h4v4zm5 2h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1zm1-6h4v4h-4V5zM3 20a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v6zm2-5h4v4H5v-4zm8 5a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v6zm2-5h4v4h-4v-4z">
-            </path>
-        </svg>  
-        <img id="profilePic" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZmlsZSUyMHBpY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"  />
+<!--        <svg style="fill: rgba(0, 0, 0, 1);" class="icon lt-align">-->
+<!--            <path-->
+<!--                    d="M10 3H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM9 9H5V5h4v4zm5 2h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1zm1-6h4v4h-4V5zM3 20a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v6zm2-5h4v4H5v-4zm8 5a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v6zm2-5h4v4h-4v-4z">-->
+<!--            </path>-->
+<!--        </svg>-->
+        <image class="rounded-lg small-image rt-align"
+             src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZmlsZSUyMHBpY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" />
     </div>
-    <div class="container">
-        <text id="discovertext" class="boldText">
-            Discover our new items
-        </text>
-        <div id="search">
-            <input id="searchInput" type="text" placeholder="Search" />
-            <button id="searchButton" type="capsule" value="icon" onclick="toggleShow"/>
-        </div>
-        <div id="notification">
-            <img id="product" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
-            <div id="notificationText">
-                <text id="runningshoes">
-                    Running Shoes
-                </text>
-                <text id="comingsoon">
-                    Coming Soon
-                </text>
+    <div class="discover">
+            <text class="font-bold row-wrap">
+                Discover our new items.
+            </text>
+            <div class="inline-block">
+                <input placeholder="Search" class="search-input p-x"/>
+                <button id="searchButton" type="text" value="icon" onclick="toggleShow">
+                </button>
+<!--                <svg class="icon search p-x">-->
+<!--                    <path-->
+<!--                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">-->
+<!--                    </path>-->
+<!--                </svg>-->
             </div>
-            <div id="notificationIcon">
-                <button id="notificationButton" type="capsule" value="icon" onclick="toggleShow"/>
-                <text id="notify">Notify me</text>
+            <div class="inline-block">
+                <image class="small-image rounded-md" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
+                <div>
+                    <text>Running Unisex Shoes</text>
+                    <text class="font-bold">Comming Soon</text>
+                </div>
+                <div>
+                    <button type="text" value="icon" onclick="toggleShow" class="rounded-md">
+                        Toggle btn
+                    </button>
+                    <text> Notify me</text>
+                </div>
+            </div>
+    </div>
+    <div>
+        <text class="font-bold text-wrap">Categories</text>
+        <div class="inline-block">
+            <button class="cat-btn rounded-md" value="Shoes"/>
+            <button class="cat-btn rounded-md" value="Tables"/>
+            <button class="cat-btn rounded-md" value="Cupboard"/>
+            <button class="cat-btn rounded-md" value="Sofa"/>
+        </div>
+    </div>
+    <div>
+        <text class="font-bold text-wrap">Popular Shoes</text>
+        <div class="inline-block">
+            <div class="container background1 rounded-md">
+                <div class="card rounded-md">
+                    <image src="./heart1.svg" alt="" class="heart"/>
+                    <image class="rounded-md product-image" src="./shoe1.svg" />
+                    <div>
+                        <text>Running Unisex Shoes 1</text>
+                        <text class="font-bold">₹1400</text>
+                    </div>
+                </div>
+            </div>
+            <div class="container background2 rounded-md">
+                <div class="card rounded-md">
+                    <image src="./heart2.svg" alt="" class="heart"/>
+                    <image class="rounded-md product-image" src="./shoe2.svg" />
+                    <div>
+                        <text>Running Unisex Shoes 2</text>
+                        <text class="font-bold">₹2200</text>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
